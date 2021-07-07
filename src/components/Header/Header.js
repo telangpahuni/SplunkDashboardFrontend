@@ -21,7 +21,7 @@ function Header() {
 
   return (
     <nav className="header-navbar navbar fixed-top navbar-dark text-light bg-dark">
-      <a className="title-navbar navbar-brandv d-flex align-items-center" href="#">
+      <Link to='/' className="title-navbar navbar-brandv d-flex align-items-center" href="#">
         <img
           src={logo}
           width="30"
@@ -30,45 +30,45 @@ function Header() {
           alt=""
         />
         {/* <div className='header-heading'> */}
-        <Link to='/' className='header-heading '>
+        <span  className='header-heading '>
           &nbsp; Dashboard || Not In Splunk Issues 
-        </Link>
+        </span>
         {/* </div> */}
-      </a>
+      </Link>
       <button
         className="navbar-toggler d-block d-xl-none d-lg-none d-md-block"
         type="button"
         onClick={toggle}
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">
-              <Link to='/' className='header-heading '>
-                Dashboard <span class="sr-only">(current)</span>
+      <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            {/* <a className="nav-link" href="#"> */}
+              <Link to='/' className='nav-link header-heading '>
+                Dashboard <span className="sr-only">(current)</span>
               </Link>
-            </a>
+            {/* </a> */}
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
               Troubleshooting Steps
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <Link to='/aboutus' className='header-heading '>
+          <li className="nav-item">
+            {/* <a className="nav-link" href="#"> */}
+              <Link to='/aboutus' className='nav-link header-heading '>
                 About us
               </Link>
-            </a>
+            {/* </a> */}
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <Link to='/table' className='header-heading '>
+          <li className="nav-item">
+            {/* <a className="nav-link" href="#"> */}
+              <Link to='/table' className='nav-link header-heading '>
                 Table
               </Link>
-            </a>
+            {/* </a> */}
           </li>
         </ul>
       </div>

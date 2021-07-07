@@ -15,13 +15,13 @@ const SidePanel = () => {
         <li className="nav-item  panel-item">
 
           <Link to='/' className='panel-item sidebar-text'>
-            <span className="mr-3"><i class="fa fa-home" aria-hidden="true"></i></span>
+            <span className="mr-3"><i className="fa fa-home" aria-hidden="true"></i></span>
             Dashboard <span className="sr-only">(current)</span>
           </Link>
         </li>
         <li className="nav-item  panel-item sidebar-text">
           <Link to='/documentation' className='panel-item sidebar-text'>
-            <span className="mr-3"><i class="fa fa-cogs" aria-hidden="true"></i></span>
+            <span className="mr-3"><i className="fa fa-cogs" aria-hidden="true"></i></span>
             <span>
               Documentation
             </span>
@@ -30,7 +30,7 @@ const SidePanel = () => {
         <li className="nav-item panel-item">
 
           <Link to='/aboutus' className='panel-item sidebar-text'>
-            <span className="mr-4"><i class="fa fa-info" aria-hidden="true"></i></span>
+            <span className="mr-4"><i className="fa fa-info" aria-hidden="true"></i></span>
             About us
           </Link>
 
@@ -38,7 +38,7 @@ const SidePanel = () => {
         <li className="nav-item panel-item">
 
           <Link to='/table' className='panel-item sidebar-text'>
-            <span className="mr-3"><i class="fa fa-table" aria-hidden="true"></i></span>
+            <span className="mr-3"><i className="fa fa-table" aria-hidden="true"></i></span>
             Detailed Table
           </Link>
 

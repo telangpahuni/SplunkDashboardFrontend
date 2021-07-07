@@ -35,14 +35,14 @@ const DisplayCount = (props) => {
           <div className="card-body count">
             <div className='heading'>We're almost there!!</div>
             <Link to="/table">
-            <div class="progress">
+            <div className="progress">
               <div
-                class="progress-bar progress-bar-striped progress-bar-animated  bg-success"
+                className="progress-bar progress-bar-striped progress-bar-animated  bg-success"
                 role="progressbar"
                 aria-valuenow={v4}
                 aria-valuemin="0"
                 aria-valuemax="100"
-                style={{ width: v4 + "%" , 'background-color': "#191970", 'color':"white" , 'fontStyle':"bold"}}
+                style={{ width: v4 + "%" , 'backgroundColor': "#191970", 'color':"white" , 'fontStyle':"bold"}}
               >
               {v4}%
               </div>

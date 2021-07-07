@@ -83,13 +83,13 @@ const DoughChart = (props) => {
           <div className='modal-box'>
             <div className='d-lg-block d-md-block d-none'>
               <a data-toggle="modal" data-target="#doughnutModal">
-                <i class="fas fa-expand"></i>
+                <i className="fas fa-expand"></i>
               </a>
             </div>
             <div className='d-lg-none d-md-none d-block text-center'>
 
               <a data-toggle="modal" data-target="#doughnutModal">
-                Compliance Reach <i class="fas fa-expand"></i>
+                Compliance Reach <i className="fas fa-expand"></i>
               </a>
             </div>
           </div>

@@ -105,7 +105,7 @@ const LineChart = (props) => {
           </a> */}
           <div className='d-lg-block d-md-block d-none'>
             <a data-toggle="modal" data-target="#exampleModal">
-              <i class="fas fa-expand"></i>
+              <i className="fas fa-expand"></i>
             </a>
           </div>
           <div className='d-lg-none d-md-none d-block text-center'>
