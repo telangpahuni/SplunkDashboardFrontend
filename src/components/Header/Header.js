@@ -7,7 +7,7 @@ function Header() {
   const ref = React.createRef();
   useEffect(() => {
     ref.current.style.right = '-250px'
-  }, [])
+  })
   function toggle(e) {
     var rht = ref.current.style.right;
     if (rht === "-250px") {

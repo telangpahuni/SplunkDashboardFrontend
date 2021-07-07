@@ -1,5 +1,5 @@
-import { getCountData } from "../../Services/GetData";
-import { useState, useEffect } from "react";
+// import { getCountData } from "../../Services/GetData";
+// import { useState, useEffect } from "react";
 import "./DisplayCount.css";
 import { Link } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const DisplayCount = (props) => {
   //   });
   // }, []);
 
-  if (props.data4.length != 0) {
+  if (props.data4.length !== 0) {
     console.log(props.data4)
     var convert = props.data4.rows
     var obj = convert[0];

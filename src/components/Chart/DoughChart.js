@@ -1,15 +1,15 @@
 import "./chart.css";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { Doughnut } from "react-chartjs-2";
-import { getDataDough, getData } from "../../Services/GetData";
+// import { getDataDough, getData } from "../../Services/GetData";
 import ChartModal from '../../components/Modal/Modal';
 
-import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
+// import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
 
 const DoughChart = (props) => {
 
   console.log(props.data2)
-    if (props.data2.length != 0) {
+    if (props.data2.length !== 0) {
         console.log(props.data2)
         var convert = props.data2.rows
         var labels = []

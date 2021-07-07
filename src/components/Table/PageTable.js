@@ -4,15 +4,15 @@ import "./PageTable.css";
 import { Link } from "react-router-dom";
 import React from "react";
 import { MDBDataTableV5 } from "mdbreact";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import "bootstrap-css-only/css/bootstrap.min.css";
 // import "mdbreact/dist/css/mdb.css";
 
 function PageTable(props) {
-    const [data, setData] = useState([]);
+    // const [data, setData] = useState([]);
 
     console.log(props.data2)
-    if (props.data3.length != 0) {
+    if (props.data3.length !== 0) {
         console.log(props.data3)
         var convert = props.data3.rows
         console.log(convert)

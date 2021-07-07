@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 import ChartModal from "../../components/Modal/Modal";
-import { getData } from "../../Services/GetData";
-import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
+// import { getData } from "../../Services/GetData";
+// import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 const LineChart = (props) => {
 
-  if (props.data.length != 0) {
+  if (props.data.length !== 0) {
     console.log(props.data)
     var convert = props.data.rows
     var labels = []

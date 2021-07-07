@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 // import { Document, Page,pdfjs } from 'react-pdf';
 import { Document,Page } from 'react-pdf/dist/esm/entry.webpack'
 import pdfFile from './roughsplunkdoc.pdf'
@@ -7,7 +7,7 @@ import './documentation.css'
 
   
 export default function Documentation() {
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
 
 return (
