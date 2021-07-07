@@ -3,19 +3,20 @@ import DisplayCount from '../DisplayCount/DisplayCount';
 import DoughChart from "./DoughChart";
 import React, { useState, useEffect } from 'react';
 function Chart() {
+  const url="https://rocky-shelf-07371.herokuapp.com/"
   const [data, setData] = useState([]);
     const [data2, setData2] = useState([]);
     const [data4, setData4] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:4000/access").then(res => res.json()).then((res) => {
+        fetch(url+"access").then(res => res.json()).then((res) => {
             console.log(res)
             setData(res)
         })
-        fetch("http://localhost:4000/dough").then(res => res.json()).then((res) => {
+        fetch(url+"dough").then(res => res.json()).then((res) => {
             console.log(res)
             setData2(res)
         })
-        fetch("http://localhost:4000/dough").then(res => res.json()).then((res) => {
+        fetch(url+"dough").then(res => res.json()).then((res) => {
             console.log(res)
             setData4(res)
         })
